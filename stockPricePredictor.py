@@ -1,3 +1,6 @@
+from programUtils import LibraryChecker as LC
+#if LC().check_all_libraries() == False:quit(0)
+
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -5,6 +8,11 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn import metrics
 from keras.models import Sequential
 from keras.layers import Dense, LSTM, Dropout
+
+
+
+
+
 
 class StockPricePredictor:
     def __init__(self, file_path):
