@@ -6,3 +6,5 @@
 # pycache folder
 
 /__pycache__
+.vscode
+/test/__pycache__
