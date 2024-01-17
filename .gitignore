@@ -4,7 +4,7 @@
 /.virtual_documents
 
 # pycache folder
-
+/app/__pycache__
 /__pycache__
 .vscode
 /test/__pycache__

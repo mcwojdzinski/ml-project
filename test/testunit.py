@@ -1,6 +1,6 @@
 import unittest
 from unittest.mock import patch
-from stockPricePredictor import StockPricePredictor
+from app.stockPricePredictor import StockPricePredictor
 
 class TestStockPricePredictor(unittest.TestCase):
 
