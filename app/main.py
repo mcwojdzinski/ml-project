@@ -4,7 +4,7 @@ from programUtils import welcome_user as WU
 
 selected_asset = WU()
 
-file_path = f"datasets/{selected_asset}.csv"
+file_path = f"../datasets/{selected_asset}.csv"
 
 predictor = StockPricePredictor(file_path)
 
