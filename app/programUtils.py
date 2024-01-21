@@ -36,7 +36,7 @@ def welcome_user():
     \033[0m""")
     print("Wybierz aktywo(a) do analizy:")
     
-    datasets_folder = "../datasets"
+    datasets_folder = "./datasets"
     available_assets = [file.split('.')[0] for file in os.listdir(datasets_folder) if file.endswith('.csv')]
 
     for index, asset in enumerate(available_assets, start=1):
